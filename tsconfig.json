@@ -1,0 +1,15 @@
+{
+  // https://v3.nuxtjs.org/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+	"target": "esnext",
+	"moduleResolution": "node",
+	"module": "esnext",
+    "types": ["@pinia/nuxt", "vitest/globals"],
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "checkJs": true,
+    "verbatimModuleSyntax": false
+  },
+}
